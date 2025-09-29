@@ -28,6 +28,6 @@ test-suite fp-labs-test
                    , fp-labs
                    , hspec
   build-tool-depends: hspec-discover:hspec-discover
-  other-modules:     Euler.PalProductSpec
-                   , Euler.QuadPrimesSpec
+  other-modules:     Unit.DictProps
+                   , Property.DictProps
   default-language:  Haskell2010
